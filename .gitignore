@@ -1,9 +1,0 @@
-*
-!src/
-!.gitignore
-!package.json
-!webpack.config.js
-!yarn.lock
-!readme.md
-!package-lock.json
-!ConsoleLogOnBuildWebpackPlugin.js

@@ -9,6 +9,9 @@
   "keywords": [],
   "author": "kio",
   "license": "ISC",
+  "dependencies": {
+
+  },
   "devDependencies": {
     "webpack": "^4.27.1",
     "webpack-cli": "^3.1.2"

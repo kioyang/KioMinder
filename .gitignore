@@ -1,0 +1,10 @@
+*
+
+!src/
+!.gitignore
+!ConsoleLogOnBuildWebpackPlugin
+!package.json
+!package-lock.json
+!readme.md
+!webpack.config.js
+!yarn.lock

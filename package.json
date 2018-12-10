@@ -1,0 +1,16 @@
+{
+  "name": "KioMinder",
+  "version": "1.0.0",
+  "description": "一款思维工具",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack"
+  },
+  "keywords": [],
+  "author": "kio",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2"
+  }
+}

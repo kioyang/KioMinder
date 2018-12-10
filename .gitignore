@@ -1,5 +1,4 @@
 *
-!/src
 !.gitignore
 !package.json
 !webpack.config.js

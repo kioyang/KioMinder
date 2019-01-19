@@ -1,7 +1,7 @@
 {
+  "compileOnSave": true,
   "compilerOptions": {
-    "allowJs": true,
-    "target": "es5",
-    "noImplicitAny": true
+    "noImplicitAny": true,
+    "target": "es5"
   }
 }

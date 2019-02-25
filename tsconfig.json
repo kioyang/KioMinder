@@ -2,6 +2,8 @@
   "compileOnSave": true,
   "compilerOptions": {
     "noImplicitAny": true,
-    "target": "es5"
+    "target": "es5",
+    "downlevelIteration": true,
+    "lib": ["es5", "es6", "dom", "es2015"]
   }
 }

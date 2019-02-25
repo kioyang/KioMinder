@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            text-align: center;
+            font-family: sans-serif, '微软雅黑';
+            background: #fff;
+        }
+
+        svg {
+            background: #fff;
+            overflow:scroll;
+        }
+
+        .animate-path {
+            animation: move 1s forwards linear;
+            stroke-dashoffset: 0;
+            stroke-dasharray: 0;
+        }
+
+        #root {
+            display: block;
+        }
+
+        @keyframes move {
+            to {
+                stroke-dashoffset: 1291;
+            }
+        }
+
+        @keyframes show {
+            to {
+                display: block;
+            }
+        }
+        .minder-edit {
+            position: absolute;
+            background: #189EDF;
+            border: none;
+            outline: none;
+            color: #FFF;
+        }
+        ::scrollbar {
+            border: none;
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+<svg style="display: none;">
+    <circle id="plus" x="0" y="0" r="12" style="stroke: #389eef;stroke-width: 6;fill: #fff;"/>
+</svg>
+<button id="save">保存</button>
+<div id="treeData"></div>
+<div id="tree"></div>
+</body>
+</html>

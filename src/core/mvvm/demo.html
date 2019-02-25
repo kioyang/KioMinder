@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .left,.right{
+            min-height: 40px;
+            position: relative;
+            display: table;
+            text-align: center;
+            border-radius: 7px;
+            background-color: #9EEA6A;
+            border: 1px solid #736262;
+        }
+        .right{      /*使左右的对话框分开*/
+            top: 40px;
+            left: 60px;
+        }
+        .left > p,.right > p{    /*使内容居中*/
+            display: table-cell;
+            vertical-align: middle;
+            padding: 0 10px;
+        }
+        .left:before,.right:after,.left:after,.right:before{   /*用伪类写出小三角形*/
+            content: '';
+            display: block;
+            width: 0;
+            height: 0;
+            border: 8px solid transparent;
+            position: absolute;
+            top: 11px;
+        }
+        /*分别给左右两边的小三角形定位*/
+        .left:before{
+            border-right: 8px solid #9EEA6A;
+            left: -16px;
+        }
+        .left:after{      /*左边对话框小三角形的边框样式*/
+            border-right: 8px solid #736262;
+            left: -17px;
+            z-index: -1;
+        }
+        .right:after{
+            border-left: 8px solid #9EEA6A;
+            right: -16px;
+        }
+        .right:before{    /*右边对话框小三角形的边框样式*/
+            border-left: 8px solid #736262;
+            right: -17px;
+            z-index: -1;
+        }
+        .one {
+            width: 100px;
+            background-color: #389eef;
+            white-space: nowrap;
+            padding: 5vmin;
+        }
+        .right:after {
+            content: '';
+            display: block;
+            width: 0;
+            height: 0;
+            clear: both;;
+        }
+        .inle {
+            display: inline-block;
+            background: #eee;
+        }
+        .two {
+            width: 200px;
+            background: #9EEA6A;
+        }
+    </style>
+</head>
+<body>
+<div class="left">
+    <p>吃了吗</p>
+</div>
+<div class="right">
+    <p>吃过了，吃了红烧排骨和酸菜鱼</p>
+</div>
+<div>
+    <div class="one"><span class="inle">一江春水向东流,流到断崖也不回头</span> </div>
+    <div class="two">yterytyrt</div>
+</div>
+</body>
+</html>

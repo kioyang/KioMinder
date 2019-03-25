@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d8f2ad35-fbb7-48c7-a4db-eec9dbed9b91" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn-error.log" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -60,7 +58,7 @@
         <entry file="file://$PROJECT_DIR$/src/core/Svg/widgets/NodeView.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
-              <caret line="38" column="19" lean-forward="true" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+              <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
                 <element signature="n#style#0;n#Use#0;n#!!top" expanded="true" />
@@ -218,8 +216,8 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-5" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-3" />
     <option name="width" value="1940" />
     <option name="height" value="1040" />
   </component>
@@ -297,7 +295,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551093569406" />
-    <property name="last_opened_file_path" value="D:/VueProject/three" />
+    <property name="last_opened_file_path" value="D:/电网项目/gddw" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
@@ -414,14 +412,16 @@
       <workItem from="1552538389030" duration="270000" />
       <workItem from="1552538807791" duration="1656000" />
       <workItem from="1552575630154" duration="147000" />
+      <workItem from="1552702946735" duration="1292000" />
+      <workItem from="1552914450774" duration="599000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="314406000" />
+    <option name="totallyTimeSpent" value="316297000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="0" width="1552" height="832" extended-state="0" />
+    <frame x="-2" y="0" width="1552" height="832" extended-state="1" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5589623" visible="true" weight="0.11873351" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -690,7 +690,7 @@
     <entry file="file://$PROJECT_DIR$/src/core/Svg/widgets/NodeView.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="38" column="19" lean-forward="true" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+          <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
             <element signature="n#style#0;n#Use#0;n#!!top" expanded="true" />
